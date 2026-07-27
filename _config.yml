@@ -1,3 +1,7 @@
-layout: base.html
 title: hollow's homepage
 description: Learning how to make a personal Github Page for the purpose of writing an overall guide on hosting pages on github.
+defaults:
+  - scope:
+      path: "" # An empty string here targets every file in your project
+    values:
+      layout: "base"
